@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "55f6c2e4bd979a78cd8c3aa41dfe6691",
+    "content-hash": "550777ee524847dc4c6f9dae053045f4",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -188,6 +188,54 @@
                 "url"
             ],
             "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "natanfelles/php-server",
+            "version": "v2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/natanfelles/php-server.git",
+                "reference": "bdd08a8b3c1734d2c1cd6fa218b6aa8518697f59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/natanfelles/php-server/zipball/bdd08a8b3c1734d2c1cd6fa218b6aa8518697f59",
+                "reference": "bdd08a8b3c1734d2c1cd6fa218b6aa8518697f59",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "bin": [
+                "bin/php-server"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Natan Felles",
+                    "email": "natanfelles@gmail.com",
+                    "homepage": "https://natanfelles.github.io"
+                }
+            ],
+            "description": "Fine tuning on the PHP Built-in web server.",
+            "homepage": "https://github.com/natanfelles/php-server",
+            "keywords": [
+                "Devtools",
+                "autoindex",
+                "dev",
+                "development",
+                "document-root",
+                "mod-rewrite",
+                "php-server",
+                "rewrite",
+                "server",
+                "webserver"
+            ],
+            "time": "2019-03-11T02:09:43+00:00"
         },
         {
             "name": "psr/http-message",

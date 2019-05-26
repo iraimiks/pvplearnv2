@@ -189,6 +189,56 @@
         ]
     },
     {
+        "name": "natanfelles/php-server",
+        "version": "v2.9",
+        "version_normalized": "2.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/natanfelles/php-server.git",
+            "reference": "bdd08a8b3c1734d2c1cd6fa218b6aa8518697f59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/natanfelles/php-server/zipball/bdd08a8b3c1734d2c1cd6fa218b6aa8518697f59",
+            "reference": "bdd08a8b3c1734d2c1cd6fa218b6aa8518697f59",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2019-03-11T02:09:43+00:00",
+        "bin": [
+            "bin/php-server"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Natan Felles",
+                "email": "natanfelles@gmail.com",
+                "homepage": "https://natanfelles.github.io"
+            }
+        ],
+        "description": "Fine tuning on the PHP Built-in web server.",
+        "homepage": "https://github.com/natanfelles/php-server",
+        "keywords": [
+            "Devtools",
+            "autoindex",
+            "dev",
+            "development",
+            "document-root",
+            "mod-rewrite",
+            "php-server",
+            "rewrite",
+            "server",
+            "webserver"
+        ]
+    },
+    {
         "name": "psr/http-message",
         "version": "1.0.1",
         "version_normalized": "1.0.1.0",
